@@ -694,6 +694,42 @@
       footer_trademark: "Batiste — Church & Dwight Co., Inc. kompaniyasining ro'yxatdan o'tgan savdo belgisi.",
       months: ["Yanvar","Fevral","Mart","Aprel","May","Iyun","Iyul","Avgust","Sentabr","Oktabr","Noyabr","Dekabr"]
     },
+    en: {
+      nativeName: "English",
+      tagline: "Dry shampoo. Fresh, clean-looking hair without water.",
+      nav_about: "About Batiste",
+      nav_check: "Check the expiry date",
+      hero_eyebrow: "Consumer guide",
+      about_heading: "About Batiste",
+      about_body: "Batiste is a dry shampoo that refreshes your hair between washes, no water needed. Owned by Church & Dwight Co., Inc., the range includes classic fragrances, sweat- and touch-activated formulas, volumizing and texturizing sprays, an overnight deep cleanse and the tinted Hint of Color line. There is a formula for every hair type and a scent for every mood.",
+      cat_fragrances: "Fragrances",
+      cat_specialty: "Specialty formulas",
+      cat_styling: "Styling",
+      cat_tinted: "Tinted",
+      check_heading: "Check the expiry date",
+      check_intro: "Batiste cans don't have a printed expiry date. Instead, the manufacturer prints a batch code on the bottom of the can that shows the production date in Julian format (the day number of the year). Here is how to read it.",
+      diagram_example_label: "Example code",
+      diagram_line_label: "Production line: ignore it",
+      diagram_year_label: "Year",
+      diagram_day_label: "Day of year",
+      diagram_result_label: "= 27 March 2026",
+      step1: "Turn the can upside down and find the code on the bottom, for example FE6086.",
+      step2: "Ignore the letters at the start. They are the production line code.",
+      step3: "The first digit is the last digit of the production year: 6 → 2026.",
+      step4: "The next three digits are the day of that year: 086 → day 86 → 27 March 2026.",
+      step5: "The product is good for 36 months after production, so FE6086 expires on 27 March 2029.",
+      calc_heading: "Check your code",
+      calc_hint: "Enter the code from the bottom of the can (letters are ignored).",
+      calc_placeholder: "e.g. FE6086",
+      calc_button: "Calculate",
+      calc_result_made: "Manufactured",
+      calc_result_expires: "Best before",
+      calc_status_valid: "Within shelf life",
+      calc_status_expired: "Expired",
+      calc_error: "Please enter a valid code. It needs at least 4 digits, for example 6086.",
+      footer_trademark: "Batiste is a registered trademark of Church & Dwight Co., Inc.",
+      months: ["January","February","March","April","May","June","July","August","September","October","November","December"]
+    },
     ky: {
       nativeName: "Кыргызча",
       tagline: "Кургак шампунь. Суусуз жаңы жана таза чач.",
@@ -1020,7 +1056,7 @@
     }
   };
 
-  var LANG_ORDER = ["uz","ky","kk","tg","ka","hy","ro","be","tk","ru"];
+  var LANG_ORDER = ["uz","ky","kk","tg","ka","hy","ro","be","tk","ru","en"];
   var currentLang = "uz";
   // Allow ?lang=xx in the URL (used by country QR codes)
   try {
